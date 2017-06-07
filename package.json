@@ -18,7 +18,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jmendiara/ng-di.git"
+    "url": "git://github.com/opentable/ng-di.git"
+  },
+  "publishConfig": {
+    "registry": "http://artifactory.otenv.com/artifactory/api/npm/npm-local"
   },
   "bugs": {
     "url": "https://github.com/jmendiara/ng-di/issues"
@@ -30,9 +33,6 @@
     }
   ],
   "main": "lib/ng-di",
-  "files": {
-
-  },
   "engines": {
     "node": ">= 0.8.0"
   },
